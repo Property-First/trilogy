@@ -143,9 +143,9 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url('./images/godrej_trilogy.png');
+  background-image: url('./images/trilogy.jpg');
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
 }
 
 @media (max-width: 768px) {
@@ -154,10 +154,11 @@ body {
   }
 
   .hero-slide {
-    background-image: url('./images/godrej_trilogy_vertical.png');
+    background-image: url('./images/trilogy_vertical.jpg');
     /* ✅ FIX */
     background-size: contain; /* ✅ key fix */
     background-repeat: no-repeat;
+    height: 768px;
   
   }
 }
