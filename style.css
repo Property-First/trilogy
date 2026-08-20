@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-  color: #c9a24a;
+  color: #060606;
 }
 
 /* Menu */
@@ -53,7 +53,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #c9a24a;
+  color: #060606;
 }
 
 /* Right Section */
@@ -65,13 +65,13 @@ body {
 
 /* Phone */
 .phone {
-  color: green;
+  /* color: green; */
   font-size: 14px;
 }
 
 /* Button */
 .enquire_btn {
-  background: #c9a24a !important;
+  background: #060606 !important;
   border: none;
   padding: 8px 15px;
   color: white;
@@ -143,18 +143,18 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url('./images/trilogy.jpg');
+  background-image: url('./images/horizon_horizontal.webp');
   background-size: cover;
   /* background-position: center; */
 }
 
 @media (max-width: 768px) {
   .hero {
-    height: 82vh;
+    height: 65vh;
   }
 
   .hero-slide {
-    background-image: url('./images/trilogy_vertical.jpg');
+    background-image: url('./images/horizon_vertical.webp');
     /* ✅ FIX */
     background-size: contain; /* ✅ key fix */
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ body {
 
 /* Tag */
 .tag {
-  border: 1px solid #c9a24a;
+  border: 1px solid #060606;
   display: inline-block;
   padding: 5px 15px;
   border-radius: 20px;
@@ -225,7 +225,7 @@ body {
 }
 
 .primary {
-  background: #c9a24a;
+  background: #060606;
   color: #fff;
 }
 
@@ -257,7 +257,7 @@ body {
   position: fixed;
   right: 20px;
   bottom: 135px;
-  background: #c9a24a;
+  background: #060606;
   color: #fff;
   border: none;
   padding: 12px 18px;
@@ -357,7 +357,7 @@ body {
 .about-tag {
   font-size: 12px;
   letter-spacing: 2px;
-  color: #c9a24a;
+  color: #060606;
   margin-bottom: 10px;
 }
 
@@ -371,7 +371,7 @@ body {
   content: "";
   width: 60px;
   height: 2px;
-  background: #c9a24a;
+  background: #060606;
   position: absolute;
   left: 0;
   bottom: -8px;
@@ -382,11 +382,12 @@ body {
   color: #555;
   margin-bottom: 15px;
   line-height: 1.6;
+  text-align: justify;
 }
 .about-content .tag {
   font-size: 12px;
   letter-spacing: 2px;
-  color: #c9a24a;
+  color: #060606;
   margin-bottom: 10px;
 }
 
@@ -419,7 +420,7 @@ body {
 .highlights-header .tag {
   font-size: 12px;
   letter-spacing: 2px;
-  color: #c9a24a;
+  color: #060606;
   margin-bottom: 10px;
 }
 
@@ -431,7 +432,7 @@ body {
 .highlights-header .line {
   width: 60px;
   height: 2px;
-  background: #c9a24a;
+  background: #060606;
   margin: 10px auto;
 }
 
@@ -471,12 +472,13 @@ body {
   font-weight: 600;
   background: #f1eeea;
   position: relative;
+  font-size: 15px;
 }
 
 /* Golden dot */
 .left::before {
   content: "•";
-  color: #c9a24a;
+  color: #060606;
   margin-right: 10px;
 }
 
@@ -487,6 +489,7 @@ body {
   text-align: left;
   background: #fff;
   color: #555;
+  font-size: 13px;
 }
 
 /* RESPONSIVE */
@@ -525,7 +528,7 @@ body {
 }
 
 .pricing-header .tag {
-  color: #c9a24a;
+  color: #060606;
   font-size: 12px;
   letter-spacing: 2px;
 }
@@ -538,7 +541,7 @@ body {
 .pricing-header .line {
   width: 60px;
   height: 2px;
-  background: #c9a24a;
+  background: #060606;
   margin: 10px 0;
 }
 
@@ -577,7 +580,7 @@ body {
 
 .card .note {
   font-size: 12px;
-  color: #c9a24a;
+  color: #060606;
 }
 
 /* TABLE */
@@ -640,7 +643,7 @@ body {
 
     .table-row{
       display:grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       align-items:center;
       padding:10px 18px;
       border-bottom:1px solid #ddd;
@@ -666,11 +669,11 @@ body {
     }
 
     .area{
-      color:#8b6f47;
+      color:#060606;
     }
 
     .sale-price{
-      color:#8b6f47;
+      color:#060606;
       font-weight:500;
       cursor:pointer;
       transition:0.3s;
@@ -700,7 +703,7 @@ body {
     }
 
     .btn.primary{
-      background:#c8a04f;
+      background:#060606;
       color:#fff;
       border:none;
     }
@@ -771,7 +774,7 @@ body {
 
     /* Top Label */
     .sub-title{
-      color:#b9923f;
+      color:#060606;
       text-transform:uppercase;
       letter-spacing:4px;
       font-size:12px;
@@ -784,7 +787,7 @@ body {
       content:"";
       width:60px;
       height:1px;
-      background:#b9923f;
+      background:#060606;
       position:absolute;
       left:-75px;
       top:50%;
@@ -800,7 +803,7 @@ body {
     .line{
       width:50px;
       height:2px;
-      background:#b9923f;
+      background:#060606;
       margin:0 auto 25px;
     }
 
@@ -834,9 +837,9 @@ body {
 
     .tab-btn.active,
     .tab-btn:hover{
-      background:#caa348;
+      background:#060606;
       color:#fff;
-      border-color:#caa348;
+      border-color:#060606;
     }
 
     /* Cards */
@@ -891,13 +894,13 @@ body {
     }
 
     .overlay h3{
-      font-size:24px;
+      font-size:18px;
       margin-bottom:10px;
     }
 
     .overlay p{
       color:#ddd;
-      font-size:15px;
+      font-size:13px;
     }
 
     /* Responsive */
@@ -971,7 +974,7 @@ body {
 
     /* TOP SMALL TITLE */
     .small-title{
-      color:#c8a54d;
+      color:#060606;
       text-transform:uppercase;
       letter-spacing:4px;
       font-size:12px;
@@ -984,7 +987,7 @@ body {
       content:"";
       width:50px;
       height:1px;
-      background:#c8a54d;
+      background:#060606;
       position:absolute;
       left:-65px;
       top:50%;
@@ -1002,7 +1005,7 @@ body {
     .gold-line{
       width:50px;
       height:2px;
-      background:#c8a54d;
+      background:#060606;
       margin:0 auto 60px;
     }
 
@@ -1031,7 +1034,7 @@ body {
 
     .amenity-card:hover{
       transform:translateY(-5px);
-      border-color:#c8a54d;
+      border-color:#060606;
       box-shadow:0 10px 25px rgba(0,0,0,0.05);
     }
 
@@ -1095,7 +1098,7 @@ body {
     }
 
     .small-title{
-      color:#c7a348;
+      color:#060606;
       text-transform:uppercase;
       letter-spacing:4px;
       font-size:12px;
@@ -1108,7 +1111,7 @@ body {
       content:"";
       width:45px;
       height:1px;
-      background:#c7a348;
+      background:#060606;
       position:absolute;
       left:-60px;
       top:50%;
@@ -1124,7 +1127,7 @@ body {
     .gold-line{
       width:50px;
       height:2px;
-      background:#c7a348;
+      background:#060606;
       margin:0 auto 25px;
     }
 
@@ -1169,12 +1172,12 @@ body {
 
     .proximity-card:hover{
       transform:translateY(-5px);
-      border-color:#c7a348;
+      border-color:#060606;
       box-shadow:0 10px 25px rgba(0,0,0,0.05);
     }
 
     .card-category{
-      color:#c7a348;
+      color:#060606;
       font-size:12px;
       letter-spacing:2px;
       text-transform:uppercase;
@@ -1182,7 +1185,7 @@ body {
     }
 
     .card-title{
-      font-size:15px;
+      font-size:14px;
       font-weight:600;
       margin-bottom:12px;
       line-height:1.4;
@@ -1190,7 +1193,7 @@ body {
 
     .card-time{
       color:#777;
-      font-size:13px;
+      font-size:12px;
     }
 
     /* RIGHT */
@@ -1205,12 +1208,12 @@ body {
 
     .info-box:hover{
       transform:translateY(-4px);
-      border-color:#c7a348;
+      border-color:#060606;
       box-shadow:0 10px 25px rgba(0,0,0,0.05);
     }
 
     .info-title{
-      color:#c7a348;
+      color:#060606;
       font-size:13px;
       letter-spacing:3px;
       text-transform:uppercase;
@@ -1279,7 +1282,7 @@ background: #000;
     }
 
     .small-title{
-      color:#caa348;
+      color:#060606;
       text-transform:uppercase;
       letter-spacing:4px;
       font-size:12px;
@@ -1293,7 +1296,7 @@ background: #000;
       content:"";
       width:28px;
       height:1px;
-      background:#caa348;
+      background:#060606;
       position:absolute;
       left:0;
       top:50%;
@@ -1309,7 +1312,7 @@ background: #000;
     .gold-line{
       width:50px;
       height:2px;
-      background:#caa348;
+      background:#060606;
       margin-bottom:30px;
     }
 
@@ -1346,12 +1349,12 @@ background: #000;
       justify-content:center;
 
       font-size:18px;
-      color:#caa348;
+      color:#060606;
     }
 
     .contact-info small{
       display:block;
-      color:#caa348;
+      color:white;
       letter-spacing:2px;
       text-transform:uppercase;
       font-size:11px;
@@ -1366,9 +1369,9 @@ background: #000;
       font-size:13px;
     }
 
-    .contact-info a:hover{
-      color:#caa348;
-    }
+    /* .contact-info a:hover{
+      color:#060606;
+    } */
 
     /* RIGHT FORM */
     .contact-form-box{
@@ -1421,7 +1424,7 @@ background: #000;
     }
 
     .form-group input:focus{
-      border-color:#caa348;
+      border-color:#060606;
     }
 
     /* CHECKBOX */
@@ -1440,13 +1443,13 @@ background: #000;
     }
 
     .checkbox span{
-      color:#caa348;
+      color:#060606;
     }
 
     /* BUTTON */
     .submit-btn{
       width:100%;
-      background:#caa348;
+      background:#060606;
       color:#fff;
       border:none;
       padding:18px;
@@ -1459,7 +1462,7 @@ background: #000;
     }
 
     .submit-btn:hover{
-      background:#b8933d;
+      background:#060606;
     }
 
     /* RESPONSIVE */
@@ -1566,7 +1569,7 @@ background: #000;
   background: #fff;
   padding: 15px;
   border-radius: 8px;
-  border-left: 4px solid #c9a646;
+  border-left: 4px solid #060606;
   margin-bottom: 20px;
 }
 
@@ -1591,7 +1594,7 @@ background: #000;
   position: absolute;
   width: 0%;
   height: 2px;
-  background: #c9a646;
+  background: #060606;
   left: 0;
   bottom: -3px;
   transition: 0.3s;
@@ -1658,7 +1661,7 @@ background: #000;
 }
 
 .location-text{
-  color:#c9a646;
+  color:#060606;
   letter-spacing:3px;
   font-size:12px;
   margin-bottom:20px;
@@ -1722,7 +1725,7 @@ h2{
 
 .submit-btn{
   width:100%;
-  background:#c9a646;
+  background:#060606;
   color:#fff;
   border:none;
   padding:16px;
